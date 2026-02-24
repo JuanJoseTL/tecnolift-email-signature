@@ -30,19 +30,12 @@ body{
 
 .role{
     font-size:14px;
-    margin-bottom:14px;
-}
-
-.company{
-    font-size:13px;
-    font-weight:bold;
-    margin-bottom:14px;
-    text-transform:uppercase;
+    margin-bottom:18px;
 }
 
 .info{
     font-size:13px;
-    margin-bottom:8px;
+    margin-bottom:10px;
     display:flex;
     align-items:center;
 }
@@ -52,15 +45,22 @@ body{
     margin-right:8px;
 }
 
+/* NUEVA LÍNEA DIVIDIDA */
 .divider{
-    width:1px;
-    height:140px;
-    background:#000;
-    margin:0 25px;
+    width:2px;
+    height:150px;
+    margin:0 18px;
+    background: linear-gradient(
+        to bottom,
+        #e9b129 0%,
+        #e9b129 50%,
+        #000000 50%,
+        #000000 100%
+    );
 }
 
 .right img{
-    max-width:260px;
+    max-width:240px;
 }
 </style>
 
@@ -73,25 +73,23 @@ body{
         <div class="name">CLAUDIA POLAR</div>
         <div class="role">Gestión y Organización de Pedidos</div>
 
-        <div class="company">TECNOLIFT - ASCENSORES Y MONTACARGAS</div>
-
         <div class="info">
-            <img src="./assets/icons/phone.svg" alt="Teléfono">
+            <img src="./assets/icons/phone.svg">
             +34 602 227 324
         </div>
 
         <div class="info">
-            <img src="./assets/icons/mail.svg" alt="Correo">
+            <img src="./assets/icons/mail.svg">
             gestion@tecnolift.es
         </div>
 
         <div class="info">
-            <img src="./assets/icons/web.svg" alt="Web">
+            <img src="./assets/icons/web.svg">
             www.tecnolift.es
         </div>
 
         <div class="info">
-            <img src="./assets/icons/pin.svg" alt="Dirección">
+            <img src="./assets/icons/pin.svg">
             Deportista Ramón Mendizábal 2-4 · 03006 Alicante
         </div>
     </div>
