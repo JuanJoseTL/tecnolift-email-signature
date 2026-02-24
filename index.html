@@ -2,106 +2,41 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Firma Tecnolift</title>
-
 <style>
-body{
-    background:#ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:40px;
-}
-
-.signature{
-    display:flex;
-    align-items:center;
-    max-width:800px;
-}
-
-/* BLOQUE IZQUIERDO */
-.left{
-    flex:1;
-}
-
-.name{
-    font-size:20px;
-    font-weight:bold;
-    margin-bottom:6px;
-}
-
-.role{
-    font-size:14px;
-    margin-bottom:20px;
-}
-
-.info{
-    font-size:13px;
-    margin-bottom:10px;
-    display:flex;
-    align-items:center;
-}
-
-.info img{
-    width:16px;
-    margin-right:8px;
-}
-
-/* LÍNEA DIVIDIDA */
-.divider{
-    width:2px;
-    height:155px;
-    margin:0 15px;
-    background: linear-gradient(
-        to bottom,
-        #e9b129 0%,
-        #e9b129 50%,
-        #000000 50%,
-        #000000 100%
-    );
-}
-
-/* BLOQUE DERECHO */
-.right img{
-    max-width:230px;
-}
+  body{background:#fff;font-family:Arial,Helvetica,sans-serif;margin:40px;}
+  .signature{display:flex;align-items:center;max-width:900px;}
+  .logo{padding-right:18px;}
+  .logo img{width:240px;height:auto;display:block;border:0;}
+  .divider{
+    width:2px;height:150px;margin:0 18px;
+    background:linear-gradient(to bottom,#e9b129 0%,#e9b129 45%,#000 45%,#000 100%);
+  }
+  .right{flex:1;}
+  .name{font-size:18px;font-weight:700;margin:0 0 6px 0;}
+  .role{font-size:13px;margin:0 0 12px 0;}
+  .row{font-size:13px;margin:0 0 8px 0;display:flex;align-items:center;}
+  .row img{width:16px;height:16px;margin-right:8px;display:block;}
 </style>
-
 </head>
 <body>
 
 <div class="signature">
+  <div class="logo">
+    <img src="./assets/logo/logo-negro.png" alt="Tecnolift">
+  </div>
 
-    <div class="left">
-        <div class="name">CLAUDIA POLAR</div>
-        <div class="role">Gestión y Organización de Pedidos</div>
+  <div class="divider"></div>
 
-        <div class="info">
-            <img src="./assets/icons/phone.svg">
-            +34 602 227 324
-        </div>
+  <div class="right">
+    <div class="name">CLAUDIA POLAR</div>
+    <div class="role">Gestión y Organización de Pedidos</div>
 
-        <div class="info">
-            <img src="./assets/icons/mail.svg">
-            gestion@tecnolift.es
-        </div>
-
-        <div class="info">
-            <img src="./assets/icons/web.svg">
-            www.tecnolift.es
-        </div>
-
-        <div class="info">
-            <img src="./assets/icons/pin.svg">
-            Deportista Ramón Mendizábal 2-4 · 03006 Alicante
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="right">
-        <img src="./assets/logo/logo-negro.png" alt="Tecnolift Logo">
-    </div>
-
+    <div class="row"><img src="./assets/icons/phone.svg" alt="">+34 602 227 324</div>
+    <div class="row"><img src="./assets/icons/mail.svg" alt="">gestion@tecnolift.es</div>
+    <div class="row"><img src="./assets/icons/web.svg"  alt="">www.tecnolift.es</div>
+    <div class="row"><img src="./assets/icons/pin.svg"  alt="">Deportista Ramón Mendizábal 2-4 · 03006 Alicante</div>
+  </div>
 </div>
 
 </body>
